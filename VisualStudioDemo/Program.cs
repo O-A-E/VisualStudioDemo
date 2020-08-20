@@ -6,7 +6,14 @@ namespace VisualStudioDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string name; 
+            
+            Console.WriteLine("Hello World! Please enter your name:");
+            name = Console.ReadLine();
+            Console.WriteLine("Hello World! Please enter your name:");
+            name = Console.ReadLine();
+
+            Console.WriteLine("Hello" + name); 
         }
     }
 }
